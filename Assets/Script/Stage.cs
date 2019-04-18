@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Stage : MonoBehaviour
 {
+    private GameControl gameControl;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        GameObject gameControllerObject = GameObject.FindGameObjectWithTag("GameController");
+        this.gameControl = gameControllerObject.GetComponent<GameControl>();
     }
 
     // Update is called once per frame
@@ -16,23 +19,13 @@ public class Stage : MonoBehaviour
         
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Note")
-        {
-            Destroy(collision.gameObject);
-        }
-
-        Debug.Log("collision exit");
-    }
-
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Note")
         {
             Destroy(collision.gameObject);
-        }
 
-        Debug.Log("trigger exit");
+            gameControl.missAction();
+        }
     }
 }

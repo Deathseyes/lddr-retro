@@ -6,6 +6,7 @@ public class Note : MonoBehaviour
 {
     public float speed = 2;
     public float xSpeed;
+    public int score = 1;
 
     // Start is called before the first frame update
     void Start()

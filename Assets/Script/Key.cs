@@ -8,11 +8,14 @@ public class Key : MonoBehaviour
     private readonly RuntimePlatform platform = Application.platform;
     private Animator animator;
     private bool isKeyDown;
+    private GameControl gameControl;
 
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
+        GameObject gameControllerObject = GameObject.FindGameObjectWithTag("GameController");
+        this.gameControl = gameControllerObject.GetComponent<GameControl>();
     }
 
     // Update is called once per frame
@@ -58,7 +61,11 @@ public class Key : MonoBehaviour
     {
         if ((collision.gameObject.tag == "Note") && isKeyDown)
         {
+            int score = collision.gameObject.GetComponent<Note>().score;
+            this.gameControl.addScore(score);
+
             Destroy(collision.gameObject);
+
         }
 
         Debug.Log(collision.gameObject.name + " in key area");
