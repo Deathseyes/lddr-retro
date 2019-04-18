@@ -66,6 +66,18 @@ TextureImporter:
     21300122: SKey11
     21300124: SKey16
     21300126: SKey17
+    21300128: UILine1_12
+    21300130: UILine1_13
+    21300132: UILine1_14
+    21300134: UILine1_15
+    21300136: UILine1_16
+    21300138: UILine1_17
+    21300140: UILine1_18
+    21300142: UILine1_19
+    21300144: UILine1_20
+    21300146: UILine1_21
+    21300148: UILine1_22
+    21300150: UILine1_23
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -884,7 +896,7 @@ TextureImporter:
         serializedVersion: 2
         x: 489
         y: 102
-        width: 312
+        width: 26
         height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1407,7 +1419,7 @@ TextureImporter:
         width: 90
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1427,13 +1439,253 @@ TextureImporter:
         width: 90
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 6621c8d5870f426439a6b5631fb37740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UILine1_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 99
+        width: 114
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b48ddb2defa6d24e90def5b9ff4c487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UILine1_13
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 99
+        width: 115
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f046db3461819448288ca149963797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UILine1_14
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 98
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef45d527d440bd642b57209abb5dba70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UILine1_15
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 100
+        width: 172
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd39fd17b8470194482f300eae76bc3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UILine1_16
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 103
+        width: 128
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201f92796b299264a8d4d701fed6eeb0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UILine1_17
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 103
+        width: 74
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce1305a210251c4e8387c441d815f88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UILine1_18
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 103
+        width: 74
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe3929f4e394dd4c8d9dab18323f189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UILine1_19
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 144
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c91fd4d9b06b84fb7730af0a1531d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UILine1_20
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 144
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1735aaeb0486adf4fabc5276662d42ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UILine1_21
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 144
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ccd0334d3e8cd408f16b36ad5c0b78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UILine1_22
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 144
+        width: 69
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff9f648ad362244195258a7f2150a84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UILine1_23
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 144
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfea1b56b884d4b4488e284b3844e98d
       vertices: []
       indices: 
       edges: []
